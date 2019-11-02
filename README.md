@@ -1,4 +1,4 @@
-# SK-Go_SK-Mini
+# SK-Go & SK-Mini
 
 Buy SecKit's 3D Printer kit
 https://seckit3dp.design/
