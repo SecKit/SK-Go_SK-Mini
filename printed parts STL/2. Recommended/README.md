@@ -2,7 +2,7 @@ SK-Go/SK-Mini can still start it's initial print without theses parts. Below are
 
 **Assembly guide**
 
-A ruler or caliper that keeps dimensions consistent will work.
+A ruler or caliper that keeps dimensions consistent will work. It's just a convenient tool and you can still complete the building without it.
 
 **Cable pillar**
 
