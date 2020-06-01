@@ -1,8 +1,5 @@
 # SK-Go & SK-Mini
 
-Buy SecKit's 3D Printer kit
-https://seckit3dp.design/
-
 YouTube
 https://www.youtube.com/channel/UCJUHiJfgDE5aeqbk4iZBPHA/videos
 
@@ -12,3 +9,8 @@ https://www.facebook.com/groups/SecKitCoreXY3DP/
 FaceBook Page
 https://www.facebook.com/seckit.3dp
 
+　
+ 
+　
+ 
+SK-Go was inspired by [BLV mgn Cube](https://www.blvprojects.com/blv-mgn-cube-3d-printer)
