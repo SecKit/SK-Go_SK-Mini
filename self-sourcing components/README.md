@@ -1,0 +1,1 @@
+A list of self-sourcing components for SK-Go² Foundation & Barebones Kit will be add here later.
