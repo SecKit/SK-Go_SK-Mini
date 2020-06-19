@@ -1,4 +1,4 @@
-SK-Go/SK-Mini can still start it's initial print without theses parts. Below are some workarounds if you don't have them printed.
+SK-Go²/SK-Go/SK-Mini can still start it's initial print without theses parts. Below are some workarounds if you don't have them printed.
 
 **Assembly guide**
 
