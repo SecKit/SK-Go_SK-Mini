@@ -59,13 +59,17 @@ M308 S0 P"bedtemp" Y"thermistor" T100000 B4138            ; configure sensor 0 a
 M950 H0 C"bedheat" T0                                     ; create bed heater output on bedheat and map it to sensor 0
 M140 H0                                                   ; map heated bed to heater 0
 M143 H0 S120                                              ; set temperature limit for heater 0 to 120C
-M307 H0 A191.5 C435.9 D4.3 V24.3 B0                       ; disable bang-bang mode for bed heater and set PID autotune PWM values
+;TO DO use the following guide to PID tune the bed heater as every build will have different values
+;https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control
+;M307 H0 A191.5 C435.9 D4.3 V24.3 B0                       ; disable bang-bang mode for bed heater and set PID autotune PWM values
 
 ; Extruder Heater
 M308 S1 P"e0temp" Y"thermistor" T100000 B4725  C7.06e-8   ; configure sensor 1 as Hemera thermistor on pin e0temp
 M950 H1 C"e0heat" T1                                      ; create nozzle heater output on e0heat and map it to sensor 1
 M143 H1 S280                                              ; set temperature limit for heater 1 to 280C
-M307 H1 A566.5 C268.7 D4.5 V24.3 B0			                  ; disable bang-bang mode for heater and set PID autotune PWM values
+;TO DO use the following guide to PID tune the hotend  as every build will have different values
+;https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control
+;M307 H1 A566.5 C268.7 D4.5 V24.3 B0			                  ; disable bang-bang mode for heater and set PID autotune PWM values
 
 ; Fans
 ;Part cooling fan
