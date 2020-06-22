@@ -8,7 +8,7 @@ G90                                            ; send absolute coordinates...
 M83                                            ; ...but relative extruder moves
 M550 P"SKGo"                                   ; set printer name
 
-M667 S1                                        ; select CoreXY mode
+M669 K1                                        ; select CoreXY mode
 
 ; Network
 M552 S1                                        ; enable network
@@ -57,22 +57,30 @@ M671 X-10:310:170 Y-310:-310:5 P0.5 ; point1 (-10,-310), point2 (310,-310), poin
 ; Bed Heater
 M308 S0 P"bedtemp" Y"thermistor" T100000 B4138            ; configure sensor 0 as thermistor on pin bedtemp
 M950 H0 C"bedheat" T0                                     ; create bed heater output on bedheat and map it to sensor 0
-M143 H0 S120                                              ; set temperature limit for heater 0 to 120C
-M307 H0 A191.5 C435.9 D4.3 V24.3 B0                       ; disable bang-bang mode for bed heater and set PID autotune PWM values
 M140 H0                                                   ; map heated bed to heater 0
+M143 H0 S120                                              ; set temperature limit for heater 0 to 120C
+;TO DO use the following guide to PID tune the bed heater as every build will have different values
+;https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control
+;M307 H0 A191.5 C435.9 D4.3 V24.3 B0                       ; disable bang-bang mode for bed heater and set PID autotune PWM values
+
 ; Extruder Heater
 M308 S1 P"e0temp" Y"thermistor" T100000 B4725  C7.06e-8   ; configure sensor 1 as Hemera thermistor on pin e0temp
 M950 H1 C"e0heat" T1                                      ; create nozzle heater output on e0heat and map it to sensor 1
 M143 H1 S280                                              ; set temperature limit for heater 1 to 280C
-M307 H1 A566.5 C268.7 D4.5 V24.3 B0			  ; disable bang-bang mode for heater and set PID autotune PWM values
-  
+;TO DO use the following guide to PID tune the hotend  as every build will have different values
+;https://duet3d.dozuki.com/Wiki/Tuning_the_heater_temperature_control
+;M307 H1 A566.5 C268.7 D4.5 V24.3 B0			                  ; disable bang-bang mode for heater and set PID autotune PWM values
+
 ; Fans
+;Part cooling fan
 M950 F0 C"fan0" Q200                           ; create fan 0 on pin fan0 and set its frequency
 M106 P0 S0 H-1                                 ; set fan 0 value. Thermostatic control is turned off
-;M950 F1 C"fan1" Q500                           ; create fan 1 on pin fan1 and set its frequency
-;M106 P1 S1 H1 T45                              ; set fan 1 value. Thermostatic control is turned on
+
+;Hotend fan
 M950 F1 C"fan1" Q200                           ; create fan 1 on pin fan1 and set its frequency
 M106 P1 S1 L120 X190 H1 T60:140                ; set fan 1 value. Thermostatic control is turned on. Min speed of 120 as 60 deg, and max speed for 190 at 140+degrees
+                                               ;!!!Set X255 for full speed hotend fan, if you have heat creep issues
+
 
 
 ; Tools
@@ -85,4 +93,3 @@ M501						; Load config-override.g
 
 ; Miscellaneous
 T0                                             ; select first tool
-
