@@ -4,7 +4,7 @@ Self-sourcing components for SK-Go² Foundation & Barebones Kit.
 |----------|:-------------------------------------------|-:|:--------------------------------|:------------------------|
 |Power     |Meanwell LRS-200-24 PSU                     | 1|200 or 350 watt, 24V output      |4 holes on back panel (PS.)|
 |Power     |SSR DC-AC                                   | 1|At least 10 amp AC               |2 holes on back panel    |
-|Power     |FS-101 fuse box and fuse                    | 1|6A for 110V. 3A for 220V.        |1 holes on back panel    |
+|Power     |FS-101 fuse box and fuse                    | 1|6A for 110V. 3A for 220V.        |1 hole on back panel    |
 |Power     |Power switch                                | 1|                                 |                         |
 |Power     |Power cord                                  | 1|At least 0.75 mm^2 internal wire |150cm or longer          |
 |Control   |BigTreeTech SKR v1.3.                       | 1|(or other control board)         |4 holes on back panel    |
