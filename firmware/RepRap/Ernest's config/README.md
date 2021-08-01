@@ -1,4 +1,5 @@
-- Mellow Fly CDY v2 board + TMC2225 drivers x 6
-- 3 independent belt drives for Triple-Z enabling auto bed tramming
+- Mellow Fly CDY v2 board + TMC drivers x 6
+- 0.9° XY stepper
 - XY sensorless homing
+- 3 independent belt drives for Triple-Z enabling auto bed tramming
 - An inductive sensor as Z endstop and ABL sensor
