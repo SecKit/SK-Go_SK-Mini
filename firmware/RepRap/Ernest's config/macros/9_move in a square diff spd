@@ -1,0 +1,103 @@
+g90	; abs movement
+g0 x5 y5 f3600
+g0 x270 y5
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f4200
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f4800
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f5400
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f6000
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f6600
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f7200
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f7800
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f8400
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f9000
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f9600
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f10200
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f10800
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f11400
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f12000
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f12600
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f13200
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f13800
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f14400
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f15000
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f15600
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f16200
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f16800
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f17400
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g0 x270 y5 f18000
+g0 x270 y280
+g0 x5 y280
+g0 x5 y5
+g91	; relative movement
