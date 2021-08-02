@@ -1,0 +1,1 @@
+Print 6 belt clamp sticks and 1 fixed mount of kinematic coupler.
