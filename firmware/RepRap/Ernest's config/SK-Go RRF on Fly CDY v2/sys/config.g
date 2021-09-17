@@ -28,7 +28,11 @@ M569 P5 S1                                              ; physical drive 5 goes 
 M584 X0 Y1 Z2:4:5 E3                                    ; set drive mapping
 M671 X-13:-13:323 Y20:250:140 S50                       ; set z drive coordinates
 M350 X16 Y16 Z16:16:16 E16 I1                           ; configure microstepping with interpolation
-M92 X200.00 Y200.00 Z160.00 E420.00                     ; set steps per mm
+M92 X200.00 Y200.00 Z200.00 E420.00                     ; set steps per mm
+                                                        ; 0.9° XY stepper: 
+                                                        ; 400 stepsPerRound * 16 microstepsPerStep / (2 mmPerTooth * 16 teethPerRound) = 200 steps/mm
+                                                        ; 1.8° Triple-Z stepper with 16T driving pulley:
+                                                        ; 200 stepsPerRound * 16 microstepsPerStep / (2 mmPerTooth * 16 teethPerRound) * 2 movingPulleyRatio = 200 steps/mm
 M566 X600.00 Y600.00 Z24.00 E300.00                     ; set maximum instantaneous speed changes (mm/min)
 M203 X30000.00 Y30000.00 Z2400.00 E2400.00              ; set maximum speeds (mm/min)
 M201 X2000.00 Y2000.00 Z200.00 E2000.00                 ; set accelerations (mm/s^2)
