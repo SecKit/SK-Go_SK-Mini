@@ -1,27 +1,19 @@
-**SecKit Benchmark Cube created by Alan Kilgore & Ernest Lin**
+## SecKit Benchmark Cube
+A 30x30 benchmarking cube to check dimensional accuracy, overhangs, retraction/stringing, ringing, and more.
 
-
-**Outer dimension**
-
+#### Outer dimension
 30x30x30 mm^3
 
+#### Wall thickness
+3 mm
 
+#### Overhang angles
+- Triangle: 30°
+- Hexagon: 30°
+- Nonagon: 10°,  50°
 
-**Wall thickness**
+#### Gap widths
+0.4 mm, 0.3 mm, 0.2 mm, 0.15 mm, 0.1 mm
 
-3mm
-
-
-**Overhang angles**
-
-Triangle: 30°
-
-Hexagon: 30°
-
-Nonagon: 10°,  50°
-
-
-**Gap widths on the top**
-
-0.4mm, 0.3mm, 0.2mm, 0.15mm, 0.1mm
-
+#### Author
+Alan Kilgore, Ernest Lin
