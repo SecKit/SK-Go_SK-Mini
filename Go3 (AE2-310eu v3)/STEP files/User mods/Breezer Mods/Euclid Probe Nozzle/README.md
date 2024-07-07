@@ -20,13 +20,12 @@ Attach the Euclid probe to the Breezer Nozzle.
 Attach the Dock:
 Mount the dock to the printer frame ensuring it aligns correctly for easy docking and undocking of the Euclid probe.
 
-    Depending on your printer setup, you may need to make some adjustments to the height of the probe dock. Ensure the probe can dock and undock smoothly without interference. Test the docking mechanism and adjust as necessary to achieve a perfect fit.
+Depending on your printer setup, you may need to make some adjustments to the height of the probe dock. Ensure the probe can dock and undock smoothly without interference. Test the docking mechanism and adjust as necessary to achieve a perfect fit.
 
-    You can modify the STEP file, use shims, or heat and bend as needed.
+You can modify the STEP file, use shims, or heat and bend as needed.
 
 Calibration:
 Once installed, perform a calibration sequence to ensure the probe is functioning correctly and providing accurate measurements.
-
-    A euclid.cfg file is provided for reference. Ensure all docking positions, etc., are compatible with your machine and positioning of the dock.
+A euclid.cfg file is provided for reference. Ensure all docking positions, etc., are compatible with your machine and positioning of the dock.
 
 ![](2024-07-07-09-43-26.png)
